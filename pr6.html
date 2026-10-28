@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JSON Data - StudentHub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .data-section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        .controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .controls input,
+        .controls select {
+            width: auto;
+            flex: 1;
+        }
+
+        .data-card {
+            background-color: #f4f7fb;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .pagination {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .pagination button {
+            margin: 5px;
+            padding: 8px 15px;
+            border: none;
+            background-color: #2d5be3;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #loading {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #error {
+            color: red;
+        }
+
+        body.dark .data-section {
+            background-color: #333;
+        }
+
+        body.dark .data-card {
+            background-color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>StudentHub</h1>
+        <button id="themeBtn">🌙 Dark Mode</button>
+    </header>
+
+    <button id="menuBtn">☰ Menu</button>
+
+    <nav id="nav">
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="profile.html">Profile</a>
+        <a href="registration.html">Registration</a>
+        <a href="faq.html">FAQ</a>
+    </nav>
+
+
+    <main>
+
+
+        <!-- Events -->
+
+        <section class="data-section">
+
+            <h2>Events</h2>
+
+            <div class="controls">
+
+                <input type="text" id="eventSearch"
+                    placeholder="Search events">
+
+                <select id="eventFilter">
+
+                    <option value="all">All Categories</option>
+                    <option value="Technical">Technical</option>
+                    <option value="Sports">Sports</option>
+                    <option value="Workshop">Workshop</option>
+                    <option value="Cultural">Cultural</option>
+
+                </select>
+
+                <select id="eventSort">
+
+                    <option value="default">Sort</option>
+                    <option value="name">Name</option>
+                    <option value="date">Date</option>
+
+                </select>
+
+            </div>
+
+            <div id="eventsContainer"></div>
+
+            <div id="eventPagination" class="pagination"></div>
+
+        </section>
+
+
+        
+        <section class="data-section">
+
+            <h2>Students</h2>
+
+            <div class="controls">
+
+                <input type="text" id="studentSearch"
+                    placeholder="Search students">
+
+                <select id="studentFilter">
+
+                    <option value="all">All Courses</option>
+                    <option value="B.Tech">B.Tech</option>
+                    <option value="BCA">BCA</option>
+                    <option value="BBA">BBA</option>
+
+                </select>
+
+                <select id="studentSort">
+
+                    <option value="default">Sort</option>
+                    <option value="name">Name</option>
+                    <option value="year">Year</option>
+
+                </select>
+
+            </div>
+
+            <div id="studentsContainer"></div>
+
+            <div id="studentPagination" class="pagination"></div>
+
+        </section>
+
+
+        <!-- FAQs -->
+
+        <section class="data-section">
+
+            <h2>FAQs</h2>
+
+            <div class="controls">
+
+                <input type="text" id="faqSearch"
+                    placeholder="Search FAQs">
+
+                <select id="faqFilter">
+
+                    <option value="all">All Categories</option>
+                    <option value="General">General</option>
+                    <option value="Registration">Registration</option>
+                    <option value="Events">Events</option>
+                    <option value="Students">Students</option>
+                    <option value="Profile">Profile</option>
+                    <option value="Dashboard">Dashboard</option>
+                    <option value="Projects">Projects</option>
+                    <option value="Settings">Settings</option>
+
+                </select>
+
+            </div>
+
+            <div id="faqsContainer"></div>
+
+            <div id="faqPagination" class="pagination"></div>
+
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+    <script src="practical6.js"></script>
+
+</body>
+
+</html>

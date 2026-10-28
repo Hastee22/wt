@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "title": "Tech Fest",
+        "date": "2026-10-05",
+        "category": "Technical",
+        "location": "Main Auditorium"
+    },
+    {
+        "id": 2,
+        "title": "Coding Competition",
+        "date": "2026-10-08",
+        "category": "Technical",
+        "location": "Computer Lab"
+    },
+    {
+        "id": 3,
+        "title": "Sports Day",
+        "date": "2026-10-10",
+        "category": "Sports",
+        "location": "College Ground"
+    },
+    {
+        "id": 4,
+        "title": "Photography Workshop",
+        "date": "2026-10-12",
+        "category": "Workshop",
+        "location": "Seminar Hall"
+    },
+    {
+        "id": 5,
+        "title": "AI Seminar",
+        "date": "2026-10-15",
+        "category": "Technical",
+        "location": "Room 101"
+    },
+    {
+        "id": 6,
+        "title": "Cultural Fest",
+        "date": "2026-10-18",
+        "category": "Cultural",
+        "location": "Main Ground"
+    },
+    {
+        "id": 7,
+        "title": "Web Development Workshop",
+        "date": "2026-10-20",
+        "category": "Workshop",
+        "location": "Computer Lab"
+    },
+    {
+        "id": 8,
+        "title": "Cricket Tournament",
+        "date": "2026-10-22",
+        "category": "Sports",
+        "location": "College Ground"
+    },
+    {
+        "id": 9,
+        "title": "Robotics Exhibition",
+        "date": "2026-10-25",
+        "category": "Technical",
+        "location": "Exhibition Hall"
+    },
+    {
+        "id": 10,
+        "title": "Music Night",
+        "date": "2026-10-27",
+        "category": "Cultural",
+        "location": "Main Auditorium"
+    },
+    {
+        "id": 11,
+        "title": "Resume Building Workshop",
+        "date": "2026-10-29",
+        "category": "Workshop",
+        "location": "Seminar Hall"
+    },
+    {
+        "id": 12,
+        "title": "Football Tournament",
+        "date": "2026-11-02",
+        "category": "Sports",
+        "location": "College Ground"
+    },
+    {
+        "id": 13,
+        "title": "Data Science Seminar",
+        "date": "2026-11-05",
+        "category": "Technical",
+        "location": "Room 102"
+    },
+    {
+        "id": 14,
+        "title": "Dance Competition",
+        "date": "2026-11-08",
+        "category": "Cultural",
+        "location": "Main Stage"
+    },
+    {
+        "id": 15,
+        "title": "Cyber Security Workshop",
+        "date": "2026-11-10",
+        "category": "Workshop",
+        "location": "Computer Lab"
+    }
+]

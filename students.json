@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "Aarav Patel",
+        "course": "B.Tech",
+        "year": 2,
+        "department": "AI & ML"
+    },
+    {
+        "id": 2,
+        "name": "Riya Shah",
+        "course": "BCA",
+        "year": 1,
+        "department": "Computer Science"
+    },
+    {
+        "id": 3,
+        "name": "Karan Mehta",
+        "course": "B.Tech",
+        "year": 3,
+        "department": "Computer Science"
+    },
+    {
+        "id": 4,
+        "name": "Ananya Patel",
+        "course": "BBA",
+        "year": 2,
+        "department": "Management"
+    },
+    {
+        "id": 5,
+        "name": "Rahul Shah",
+        "course": "B.Tech",
+        "year": 4,
+        "department": "AI & ML"
+    },
+    {
+        "id": 6,
+        "name": "Meera Joshi",
+        "course": "BCA",
+        "year": 2,
+        "department": "Computer Science"
+    },
+    {
+        "id": 7,
+        "name": "Dev Patel",
+        "course": "B.Tech",
+        "year": 1,
+        "department": "Information Technology"
+    },
+    {
+        "id": 8,
+        "name": "Ishita Shah",
+        "course": "BBA",
+        "year": 3,
+        "department": "Management"
+    },
+    {
+        "id": 9,
+        "name": "Yash Mehta",
+        "course": "B.Tech",
+        "year": 2,
+        "department": "Information Technology"
+    },
+    {
+        "id": 10,
+        "name": "Nisha Patel",
+        "course": "BCA",
+        "year": 3,
+        "department": "Computer Science"
+    },
+    {
+        "id": 11,
+        "name": "Arjun Shah",
+        "course": "B.Tech",
+        "year": 4,
+        "department": "AI & ML"
+    },
+    {
+        "id": 12,
+        "name": "Diya Joshi",
+        "course": "BBA",
+        "year": 1,
+        "department": "Management"
+    },
+    {
+        "id": 13,
+        "name": "Harsh Patel",
+        "course": "B.Tech",
+        "year": 3,
+        "department": "Computer Science"
+    },
+    {
+        "id": 14,
+        "name": "Pooja Mehta",
+        "course": "BCA",
+        "year": 4,
+        "department": "Computer Science"
+    },
+    {
+        "id": 15,
+        "name": "Manav Shah",
+        "course": "B.Tech",
+        "year": 1,
+        "department": "AI & ML"
+    }
+]
