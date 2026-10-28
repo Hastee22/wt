@@ -1,0 +1,18 @@
+
+# Environment secrets
+.env
+
+# Uploaded user files
+uploads/*
+
+# Preserve the uploads folder
+!uploads/.gitkeep
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
